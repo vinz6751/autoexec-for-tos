@@ -1,4 +1,4 @@
-# autoexec
+# autoexec for TOS
 Atari TOS program to run programs with command line during boot.
 
 This program was created because the TOS doesn't allow passing command line parameters to programs while launching from the AUTO folder during boot.
@@ -11,7 +11,7 @@ Each line then looks like:
 <full_program_path> <parameters>
 
 Spaces and tabs between program name and parameter are ignored.
-Les lignes vides sont ignor‚es.
+Les lignes vides sont ignorâ€šes.
 If you want messages during the execution add this line:
 *VERBOSE ON
 Or, to disable:
