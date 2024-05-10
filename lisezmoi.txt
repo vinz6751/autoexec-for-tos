@@ -1,0 +1,44 @@
+Le TOS ne permet pas de passer une ligne de commande aux programmes du
+dossier AUTO.
+L'objet de ce programme est donc de lancer des programmes, en pouvant
+leur passer une ligne de commande.
+
+Il suffit donc de le placer dans le dossier \AUTO.
+Lorsqu'il s'ex‚cute, il cherche sa config dans un fichier autoexec.cnf
+situ‚ … la racine du disque courant.
+Chaque ligne peut ˆtre ainsi:
+
+<programme> <ligne_de_commande>
+
+Les espaces et tabulations entre le programme et la ligne de commande
+sont ignor‚s.
+La ligne de commande est limit‚e … 124 caractŠres car c'est tout ce que
+le TOS supporte.
+
+Les lignes vides sont ignor‚es.
+Les espaces et tabulations pr‚fixant une ligne sont ignor‚es.
+On peut mettre des lignes de commentaire commen‡ant par #.
+
+Une ligne peut aussi ˆtre ainsi, pour avoir des messages lors de l'ex‚cution:
+*VERBOSE ON
+
+On peut activer/d‚sactiver ceci … tout moment avec
+*VERBOSE OFF
+
+
+Avantages de ce programme:
+- On peut lancer des programmes avec la ligne de commande.
+- On peut avoir plusieurs fichiers autoexec.cnf et utiliser un s‚lecteur
+de boot pour choisir lequel s'ex‚cutera.
+- On peut contr“le l'ordre d'‚x‚cution sans avoir … trifouiller le
+dossier AUTO.
+
+Le programme a ‚t‚ ‚crit avec MicroEmacs 4 sur Foenix A2560U, avec PureC
+comme compilateur et l'utilitaire PCMAKE de Otto Thorsten.
+
+Vinz/MPS
+30 d‚c‚mbre 2023
+vincent.barrilliot@laposte.net
+
+Domaine public
+

@@ -1,0 +1,15 @@
+autoexec.prg
+
+.L [ ]
+.C [-Ic:\pure_c\include ]
+.S [ ]
+
+
+=
+c:\pure_c\lib\pcstart.o
+autoexec.c
+
+c:\pure_c\lib\pctoslib.lib
+c:\pure_c\lib\pcstdlib.lib
+
+
